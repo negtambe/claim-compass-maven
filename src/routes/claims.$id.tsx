@@ -62,7 +62,7 @@ function currency(n: number) {
 }
 
 function ClaimDetail() {
-  const { claim } = Route.useLoaderData();
+  const { claim } = Route.useLoaderData() as { claim: Claim };
   const meta = STATUS_META[claim.status];
 
   return (
