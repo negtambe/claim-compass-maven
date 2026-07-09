@@ -36,8 +36,8 @@ function Dashboard() {
             <Compass className="h-5 w-5" />
           </div>
           <div>
-            <div className="text-sm text-muted-foreground">Claim Compass</div>
-            <div className="text-base font-semibold text-foreground">Hi, Alex</div>
+            <div className="font-serif text-base italic tracking-tight text-primary">Maven</div>
+            <div className="text-xs uppercase tracking-[0.18em] text-muted-foreground">Claim Compass</div>
           </div>
         </div>
       </header>
