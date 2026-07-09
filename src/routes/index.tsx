@@ -11,10 +11,10 @@ export const Route = createFileRoute("/")({
         content:
           "A calm, step-by-step tracker for healthcare reimbursement claims. No more black-box 'Processing'.",
       },
-      { property: "og:title", content: "Claim Compass" },
+      { property: "og:title", content: "Claim Compass — See exactly where your claim stands" },
       {
         property: "og:description",
-        content: "See exactly where your claim stands, every step of the way.",
+        content: "A calm, step-by-step tracker for healthcare reimbursement claims. No more black-box 'Processing'.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

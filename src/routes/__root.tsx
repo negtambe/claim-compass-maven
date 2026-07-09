@@ -77,20 +77,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Claim Compass — Claims transparency for healthcare reimbursement" },
+      { title: "Claim Compass — See exactly where your claim stands" },
       {
         name: "description",
         content:
-          "See exactly where your healthcare reimbursement claim stands, every step of the way.",
+          "A calm, step-by-step tracker for healthcare reimbursement claims. No more black-box 'Processing'.",
       },
       { name: "author", content: "Claim Compass" },
-      { property: "og:title", content: "Claim Compass" },
+      { property: "og:title", content: "Claim Compass — See exactly where your claim stands" },
       {
         property: "og:description",
-        content: "A calm, step-by-step tracker for healthcare reimbursement claims.",
+        content: "A calm, step-by-step tracker for healthcare reimbursement claims. No more black-box 'Processing'.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Claim Compass — See exactly where your claim stands" },
+      { name: "twitter:description", content: "A calm, step-by-step tracker for healthcare reimbursement claims. No more black-box 'Processing'." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/63cca533-ca60-4e3c-a4ed-bf4f2ffd4341/id-preview-f59319bf--3daccaf0-ed23-440a-a4de-d03d24038051.lovable.app-1783613654717.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/63cca533-ca60-4e3c-a4ed-bf4f2ffd4341/id-preview-f59319bf--3daccaf0-ed23-440a-a4de-d03d24038051.lovable.app-1783613654717.png" },
     ],
     links: [
       {
@@ -103,7 +107,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap",
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
   }),
   shellComponent: RootShell,
